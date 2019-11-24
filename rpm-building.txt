@@ -1,0 +1,10 @@
+######## This is rpm build guide ###########
+
+######## SETUP #########
+
+$ yum install rpmdevtools
+$ echo '%_topdir /home/USER_NAME/rpmbuild' > ~/.rpmmacros
+$ rpmdev-setuptree
+
+
+
